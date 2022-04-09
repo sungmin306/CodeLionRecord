@@ -1,0 +1,9 @@
+일단해보는 HTML / CSS 강의에서 알게된 점 or 느낀점.
+
+1. footer 태그와 p태그 둘다 화면상 나오는건 똑같이 나오지만 태그 의미가 다르다.
+2. <meta charset="utf-8"> 과 같이 콘텐츠표현을 위한 부수적인 모든것들은 head 태그에 들어간다.
+3. 박스의 전체크기는 width + 태두리 두께 or height+태두리 두깨로 정할 수 있다.
+4. box-shadow 를 사용해 박스의 그림자를 넣을 수 있다.
+5. margin-left: auto , margin-right: auto 를 이용해서 박스를 가운데로 정렬 시킬 수 있다.
+6.구글 폰트를 사용할때는 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap');
+  위와 같이 사용할 수 있고, 그 밖에 구글링을 통해 여러 폰트를 사용할 수 있다. 

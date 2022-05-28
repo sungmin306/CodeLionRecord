@@ -1,0 +1,13 @@
+manage.py 로 할 수있는것 
+서버실행
+앱 만들 수 있음
+데이터 베이스 초기화 및 변경 사항 저장
+관리자 계정 만들기
+URL 효율적으로 관리하는 방법
+django-admin startproject pratice_url #명령어로 장고 프로젝트 실행
+ python manage.py startapp myapp #명령어로 장고 앱 생성
+그 후 setting.py에 만든 앱을 등록
+
+urls에 등록 
+from myapp import views
+path('',views.first)
